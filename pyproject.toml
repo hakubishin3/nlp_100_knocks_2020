@@ -8,6 +8,7 @@ authors = ["hakubishin3 <hansaku187@gmail.com>"]
 python = "^3.7"
 pandas = "^1.0.5"
 numpy = "^1.19.1"
+mecab = "^0.996.2"
 
 [tool.poetry.dev-dependencies]
 

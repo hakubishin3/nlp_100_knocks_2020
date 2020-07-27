@@ -1,5 +1,13 @@
 [[package]]
 category = "main"
+description = "MeCab binding for many OSs (Windows, macOS, and Linux)"
+name = "mecab"
+optional = false
+python-versions = "*"
+version = "0.996.2"
+
+[[package]]
+category = "main"
 description = "NumPy is the fundamental package for array computing with Python."
 name = "numpy"
 optional = false
@@ -50,10 +58,21 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 version = "1.15.0"
 
 [metadata]
-content-hash = "721d25096d20c3f8af59acbca7b0c8211917e5799ed0e2cd060c48904f1f79db"
+content-hash = "30c2f3dc7ded0cc7e30f958e31b9204cbb6071544ce6368d097d73dcdeac9fcf"
 python-versions = "^3.7"
 
 [metadata.files]
+mecab = [
+    {file = "mecab-0.996.2-cp27-cp27m-win32.whl", hash = "sha256:35cfaab24b4445bc2e11ee0ae138933a41e31883232e2d9017df98cc2a9c604d"},
+    {file = "mecab-0.996.2-cp27-cp27m-win_amd64.whl", hash = "sha256:096bc3fb638e349dcfb171d71a1cfaebf8b93b06a13209e9a607132b62cb3357"},
+    {file = "mecab-0.996.2-cp36-cp36m-win32.whl", hash = "sha256:9868fcacc887a6848634682394d9b3b388fe724408e0c2d0cc40c0d902df9e49"},
+    {file = "mecab-0.996.2-cp36-cp36m-win_amd64.whl", hash = "sha256:9449d2e99c051517d088c40f035bb710b60ef74cf10494ec882316e4d86ec526"},
+    {file = "mecab-0.996.2-cp37-cp37m-win32.whl", hash = "sha256:13d41749d5a7314edd6ff4df22fc3dd80843e6002a2ae080376d3a448ead9274"},
+    {file = "mecab-0.996.2-cp37-cp37m-win_amd64.whl", hash = "sha256:0afedab4824fc6c25349801edfc857e430b8c85c6d7c417e04d67a2759c00087"},
+    {file = "mecab-0.996.2-cp38-cp38-win32.whl", hash = "sha256:6c6b042a73dc0bb7ec34c2c91683f5d0327f6f46539fed3afb4d123dc64cab3c"},
+    {file = "mecab-0.996.2-cp38-cp38-win_amd64.whl", hash = "sha256:95685c2b7b1e30d42506d19f6ada8b135ef0006097585f410c0bfe4921f6d6f2"},
+    {file = "mecab-0.996.2.tar.gz", hash = "sha256:ec8e46e4930e091c25f9f2dc740543bfc483482917dc1340fd914a9344de5b10"},
+]
 numpy = [
     {file = "numpy-1.19.1-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:b1cca51512299841bf69add3b75361779962f9cee7d9ee3bb446d5982e925b69"},
     {file = "numpy-1.19.1-cp36-cp36m-manylinux1_i686.whl", hash = "sha256:c9591886fc9cbe5532d5df85cb8e0cc3b44ba8ce4367bd4cf1b93dc19713da72"},
