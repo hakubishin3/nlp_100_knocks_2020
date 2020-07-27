@@ -128,3 +128,4 @@ dmypy.json
 # others
 *json
 *txt
+*mecab
